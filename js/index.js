@@ -18,11 +18,8 @@ $(function(){
 
 	// スライダー
 	var imgList = [
-		"images/slider/img01.jpg",
 		"images/slider/img02.jpg",
-		"images/slider/img03.jpg",
-		"images/slider/img04.jpg",
-    	"images/slider/img05.jpg"
+    		"images/slider/img05.jpg"
 	];
 
 	for(var i = 0; i < imgList.length; i++) {
