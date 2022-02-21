@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>写真集</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/colorbox.css">
+<link rel="stylesheet" href="css/bigvideo.css">
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<div class="video_wrapper">
+<video style="min-width:100%; min-height:150%; min-height: 100vh; width: auto; height: auto; position:fixed; right:0;" src="images/movie1.mp4" autoplay loop muted></video>
+<div style="position: absolute; z-index: 100;" id="wrapper">
+    <div class="gnavi">
+        <p class="btn-gnavi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <nav class="menu-gnavi">
+            <ul class="menu gnavi1">
+                <li class="current"><a href="#section01">TOP</a></li>
+                <li><a href="#section02">ABOUT</a></li>
+                <li><a href="#section03">PHOTO</a></li>
+                <li><a href="#section04">FUZOKU</a></li>
+                <li><a href="#section05">MAP</a></li>
+                <li><a href="https://kodaitsukada.github.io/surararepository/">hunting</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contents">
+        <section id="section01">
+            <div class="section-inner">
+                <h1>PHPTO ALBUM</h1>
+            </div>
+        </section>
+        <section id="section02" class="area">
+            <div class="section-inner">
+                <h2>ABOUT</h2>
+                <p class="is-size-4">この写真は作成者の大切な思い出として作られたものです。</p>
+                <p class="is-size-4">またこの写真を無断で転載等を行った場合には、著作権・肖像権の侵害などの罪に問われる場合がございます。</p>
+                <p class="is-size-4">写真を使いたいという方がございました、下記のメールアドレスまでご連絡ください。</p>
+                <div class="container">
+                  <p class="is-size-4">メールアドレス　　　　　　　　　200172c027@es.shinshu-u.ac.jp</p>
+                </div>
+            </div>
+        </section>
+        <section id="section03" class="area">
+            <div class="section-inner">
+                <h2>PHOTO</h2>
+                <div>
+                    <div class="slider">
+                        <ul class="slider-inner"></ul>
+                        <ul class="nav"></ul>
+                        <p id="arrow-prev" class="arrow">←</p>
+                        <p id="arrow-next" class="arrow">→</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section04" class="area">
+            <div class="section-inner">
+                <h2>FUZOKU</h2>
+                <ul>
+                    <li><a class="popup" href="https://www.shinshu-u.ac.jp/faculty/education/common_fuzoku/img/nagano-chu/pic_main_04.jpg"><img src="https://www.shinshu-u.ac.jp/faculty/education/common_fuzoku/img/nagano-chu/pic_main_04.jpg" width="300" height="100px"></a></li>
+                    <li><a class="popup" href="https://www.shinshu-u.ac.jp/faculty/education/common_fuzoku/img/nagano-chu/pic_main_01@2x.jpg"><img src="https://www.shinshu-u.ac.jp/faculty/education/common_fuzoku/img/nagano-chu/pic_main_01@2x.jpg" width="300" height="100px"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="section05" class="area">
+            <div class="section-inner">
+                <h2>MAP</h2>
+                <div id="map"></div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9UBEK1ZXUoSaycB5azXlRUGd1QKef4c"></script>
+<script src="js/jquery.colorbox-min.js"></script>
+<script src="js/jquery.imagesloaded.min.js"></script>
+<script src="js/bigvideo.js"></script>
+<script src="js/fadeInElements.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
