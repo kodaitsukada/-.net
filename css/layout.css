@@ -2,6 +2,23 @@ body {
     font-family:"游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
     color: #fff;
 }
+
+.video_wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video_wrapper > video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 50%;
+}
+
 #wrapper {
     background-color: rgba(0,0,0,.2);
     position: absolute;
